@@ -1,0 +1,121 @@
+/*styling of sec background*/
+#time{
+	width: 100%;
+	overflow: hidden;
+	background-image: url(../img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+
+}
+/*bg alpha*/
+.alpha{
+	background-color: rgba(0,0,0,0.3);
+}
+/*bg after*/
+.work{
+	height: 100%;
+	width: 120%;
+	background-color: rgba(0,0,0,0.6);
+	transform: skew(-15deg);
+	box-shadow: -1rem 0rem 1rem rgba(35, 32, 32, 0.97);
+}
+/*styling of text*/
+.txt h1{
+	text-align: center;
+	font-size: 3rem; 
+	text-shadow: 0rem 0rem 0.5rem yellow; 
+	letter-spacing: 0.2rem;
+	margin-left: 4rem;
+}
+.txt h1 span{
+	color: yellow;
+	font-size: 4rem;
+	text-shadow: 0rem 0rem 0.5rem black; 
+	animation: colorme 2s infinite;
+}
+.txt hr{
+	width: 15%;
+	border: 0.1rem solid yellow;
+	margin: 2rem auto;
+	box-shadow: 0rem 0.2rem 0.1rem black; 
+
+}
+.txt p{
+	color: yellow;
+	font-size: 1.1rem;
+	text-shadow: 0.2rem 0.2rem 0.1rem black;
+	text-align: center;
+}
+/*styling of coming soon text*/
+.txt h2{
+	font-size: 5rem; 
+	text-shadow: 0rem 0rem 0.5rem yellow; 
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.txt h2 span{
+	color: yellow;
+	text-shadow: 0rem 0rem 0.5rem black; 
+	margin-left: 2rem;
+}
+/*styling of input*/
+.input1{
+	width: 23rem;
+	margin: auto auto;	
+}
+.input1 input{
+	background-color: transparent;
+	border-color: yellow;
+	color: yellow !important;
+}
+.input1 input:focus{
+	box-shadow: none !important;
+	border:0.15rem solid yellow;
+	background-color: transparent;
+	outline: none !important;
+}
+.input1 input:visited{
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+input::placeholder{
+	color: yellow !important;
+}
+/*styling of input button*/
+.input1 button{
+	background-color: yellow;
+	border: none;
+}
+.input1 button:focus{
+	box-shadow: 0rem 0rem 0.5rem yellow;
+}
+/*styling of countdown numbers & text*/
+.timer1 span{
+	font-size: 5rem;
+	font-weight: 900;
+	text-shadow: 0rem 0rem 1rem yellow;
+}
+.timer1 h2{
+	color: yellow;
+	text-shadow: 0rem 0rem 0.5rem black;
+}
+/*styling of icons*/
+.icons span{
+	color: yellow;
+}
+.icons span:hover{
+	text-shadow: 0rem 0rem 0.5rem white;
+	transform: scale(1.5);
+}
+.social-links{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem  !important;
+}
+.socal-links a{
+
+}
